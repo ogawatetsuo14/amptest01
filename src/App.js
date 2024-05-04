@@ -3,9 +3,10 @@ import './App.css';
 
 const onClickUsers = () => {
   const api = "https://4dsda75wt5.execute-api.ap-northeast-1.amazonaws.com/default/amptest0127e81e2e-main";
+  const user = {name: "ogawa"};
 
   axios
-    .get(api)
+    .post(api, {user})
     .then((res) => {
       console.log(res.data);
     })
