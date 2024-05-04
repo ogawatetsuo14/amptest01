@@ -22,7 +22,7 @@ const onClickUsers = () => {
 function App() {
   return (
     <div className="App">
-      <button onClick={onClickUsers}>users</button>
+      <Button onClick={onClickUsers}>users</Button>
       <Button onClick={signOut}>Sign out</Button>
     </div>
   );
