@@ -1,6 +1,6 @@
 import axios from "axios";
 import './App.css';
-import { Amplify } from '@aws-amplify';
+import { Amplify } from 'aws-amplify';
 import { withAuthenticator, Button } from '@aws-amplify/ui-react';
 import { signOut } from 'aws-amplify/auth';
 import '@aws-amplify/ui-react/styles.css';
