@@ -2,7 +2,7 @@ import axios from "axios";
 import './App.css';
 
 const onClickUsers = () => {
-  const api = "https://463mivhum3.execute-api.ap-northeast-1.amazonaws.com/default/amptest01Func01-dev";
+  const api = "https://4dsda75wt5.execute-api.ap-northeast-1.amazonaws.com/default/amptest0127e81e2e-main";
 
   axios
     .get(api)

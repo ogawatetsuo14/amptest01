@@ -1,5 +1,10 @@
 {
   "function": {
+    "amptest0127e81e2e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "amptest01Func01": {
       "build": true,
       "dependsOn": [],
@@ -8,6 +13,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_amptest0127e81e2e_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amptest0127e81e2e"
+        }
+      ]
+    },
+    "AMPLIFY_function_amptest0127e81e2e_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amptest0127e81e2e"
+        }
+      ]
+    },
     "AMPLIFY_function_amptest01Func01_deploymentBucketName": {
       "usedBy": [
         {
