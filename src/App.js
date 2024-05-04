@@ -1,5 +1,7 @@
 import axios from "axios";
 import './App.css';
+import { withAuthenticator, Button } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
 
 const onClickUsers = () => {
   const api = "https://4dsda75wt5.execute-api.ap-northeast-1.amazonaws.com/default/amptest0127e81e2e-main";
@@ -16,8 +18,9 @@ function App() {
   return (
     <div className="App">
       <button onClick={onClickUsers}>users</button>
+      <Button onClick={signOut}>Sign out</Button>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);

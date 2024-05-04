@@ -21,6 +21,9 @@
           "deploymentBucketName": "amplify-amptest01-main-71fe5-deployment",
           "s3Key": "amplify-builds/amptest0127e81e2e-79396f70793478776f63-build.zip"
         }
+      },
+      "auth": {
+        "amptest01": {}
       }
     }
   },
